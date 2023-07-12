@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export'
+    //Set export to base html
+    output: 'export',
+
+    // Set the base path for your Next.js application
+    basePath: '/dummy-nextjs-landing',
 }
 
 module.exports = nextConfig
