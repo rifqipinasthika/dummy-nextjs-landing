@@ -5,6 +5,9 @@ const nextConfig = {
 
     // Set the base path for your Next.js application
     basePath: '/dummy-nextjs-landing',
+
+    //With this option set, urls like /about will redirect to /about/.
+    trailingSlash: true
 }
 
 module.exports = nextConfig
